@@ -1,0 +1,30 @@
+@media screen and (max-width: 700px){
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-top: 8px;
+  }
+
+  header nav {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
+  header nav a {
+    margin-right: 12px;
+  }
+
+  .buttonclass {
+    margin-top: 8px;
+    width: 216px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .description {
+    width: 50%;
+  }
+}  
